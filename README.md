@@ -16,6 +16,13 @@ public class SavingsAccount extends BankAccount { //SavingsAccount is a subclass
 		this.annualInterestRate = AIR;
 		this.minimumBalance = minB;	
 	}
+	
+	public SavingsAccount(double annualInterestRate){
+		
+	}
+	public SavingAccount(Customer accountHolder, double balance, double annaulInterestRate){
+		
+	}
 
 	public void depositMonthlyInterest() { //method to deposit monthly interest
 		super.deposit(annualInterestRate/12 * super.getBalance());
